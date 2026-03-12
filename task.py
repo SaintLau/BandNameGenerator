@@ -1,4 +1,5 @@
-question1 = "Hello! Welcome o your band name generator\nIn what city did you grew up in?\n"
-question2 = "If you had a pet as a child, what was the name?\n"
-
-print("Your band name is " + (input(question1) + input(question2)))
+# Fix for a more readable and correct approach:
+print("Welcome to the Band Name Generator.")
+city = input("Which city did you grew up in?\n")
+pet = input("What is the name of a pet?\n")
+print("Your band name could be: " + city + pet)
